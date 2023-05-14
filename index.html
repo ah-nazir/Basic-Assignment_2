@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      h1 {
+        margin: 0;
+      }
+      
+      nav {
+        display: flex;
+        align-items: center;
+      }
+      
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 20px;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px;
+      }
+      
+      .logo img {
+        display: block;
+        height: 50px;
+        width: 50px;
+        object-fit: contain;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+      
+      .post {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        overflow: hidden;
+      }
+      
+      .post img {
+        float: left;
+        margin-right: 10px;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+      
+      .post h2 {
+        margin-top: 0;
+      }
+      
+      .post p {
+        margin: 0;
+      }
+      
+      .read-more {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+        margin-top: 10px;
+      }
+      
+      .read-more:hover {
+        background-color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="photo/logo.png" height="80px" width="80px" alt="My Blog">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="featured-post">
+        <h2>Featured Post</h2>
+        <img src="photo/featured.jpg" alt="Featured Post Image">
+        <h3>Latest Blog Post Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lacinia libero vitae massa finibus vulputate. Sed id congue tellus. </p>
+        <a href="#">Read More</a>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
